@@ -3,9 +3,10 @@
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Prerna Patil</title>
+    <title>Sreelakshmi B J</title>
     <meta name='viewport' content='width=device-width, initial-scale=1.0'>
     <link rel='stylesheet' type='text/css' media='screen' href='./styles/main.css'>
+    <link rel="stylesheet" href="./styles/theme-switcher.css">
 </head>
 <body>
 <div id="container--main">
@@ -13,7 +14,7 @@
         <div id="socials--list">
             <a href="index.html">About</a>
             <!-- <a href="Education.html">Education/Work Experience</a> -->
-            <a href="projects.html">Projects</a>
+            <a href="project1.html">Projects</a>
             <a href="Publications.html">Publications/ Conference Talks</a>
         </div>
         <div class="line-break"></div>
@@ -21,36 +22,43 @@
     <section>
         <section class="section--page">
             <h2>Publications</h2>
-            <div class="py-2">
-                <p class="paper my-2 pl-2">
-                    <span class="papertitle">Reduced-Order Modeling with Time-Dependent Bases for PDEs with Stochastic Boundary Conditions
-                    </span><br>
-                    <span class="thisauthor">Prerna Patil</span>, Hessam Babaee
-                    <br>
-                    <a class="tag" href="https://epubs.siam.org/doi/abs/10.1137/21M1468097" target="_blank">pdf</a><span class="tagsep">|</span>
-                    <a class="tag" href="https://arxiv.org/abs/2112.14326" target="_blank">abstract</a><span class="tagsep">|</span>
-                </p>
-                </div>
+<ul id="qualifications--list">
+    <li class="pubs">
+        <span class="papertitle">
+            Mechanoresponsive ETS1 causes endothelial dysfunction and arterialization in varicose veins via NOTCH4/DLL4 signaling
+        </span><br>
+        <span class="thisauthor">B.J. Sreelakshmi,</span> C.L. Karthika, S. Ahalya, S.R. Kalpana, C.C. Kartha, S. Sumi 
+        <br>
+        <a class="tag" href="https://www.sciencedirect.com/science/article/pii/S0171933524000372?via%3Dihub" target="_blank">link</a>
+        <!-- <a class="tag" href="https://arxiv.org/abs/2112.14326" target="_blank">abstract</a><span class="tagsep">|</span> -->
 
-                <div class="py-2">
-                <p class="paper my-2 pl-2">
-                    <span class="papertitle">Real-Time Reduced-Order Modeling of Stochastic Partial Differential Equations via Time-Dependent Subspaces
+    <li class="pubs">
+        <span class="papertitle">
+            Oscillatory shear stress modulates Notch-mediated endothelial mesenchymal plasticity in cerebral arteriovenous malformations
                         </span><br>
-                    <span class="thisauthor">Prerna Patil</span>, Hessam Babaee
-                    <br>
-                    <a class="tag" href="https://www.sciencedirect.com/science/article/abs/pii/S0021999120302850" target="_blank">pdf</a><span class="tagsep">|</span>
-                    <a class="tag" href="https://arxiv.org/abs/1910.04299" target="_blank">abstract</a><span class="tagsep">|</span>
-                </p>
-                </div>
+                        Karthika, C. L., Vani Venugopal, <span class="thisauthor">B.J. Sreelakshmi</span>, S. Krithika, Jaya Mary Thomas, Mathew Abraham, C. C. Kartha, Arumugam Rajavelu, and S. Sumi 
+                   <br>
+                    <a class="tag" href="https://cmbl.biomedcentral.com/articles/10.1186/s11658-023-00436-x" target="_blank">link</a>
+                    <!-- <a class="tag" href="https://arxiv.org/abs/1910.04299" target="_blank">abstract</a><span class="tagsep">|</span> -->
+    </li>
+</ul>
+
         </section>
     </section>
+    
+
+
+
+
+    
     
     <section class="section--page">
             <h2>Conference Talks</h2>
             <ul id="qualifications--list">
-                <li>'Long time delay embeddings of unstable periodic orbits in chaotic attractors'
-                    at the 16th World Congress on Computational Mechanics in July 2024 at Vancouver, Canada.
-                </li>
+                <li>'Aberrant mechanosensitive signaling pathway induces venous endothelial dysfunction in varicose veins' at International Conference on Emerging Trends in Genomics and Biomedicine
+                    (ETGB 2023) in November 2023 at University of Kerala, India.</li>
+                   
+            
                 <li>'Time delay embeddings to uncover unstable periodic orbits and exact coherent
                     structures in chaotic 
                     fluid systems' at the 76th meeting of the American Physical Society- Division
@@ -80,5 +88,11 @@
     </div>
     </section>
 </div>
+<div id="theme-switcher">
+    <div class="theme" id="theme-light" data-theme="light"></div>
+    <div class="theme" id="theme-dark" data-theme="dark"></div>
+</div>
 </body>
+<script src="js/theme-switcher.js"></script>
+
 </html>

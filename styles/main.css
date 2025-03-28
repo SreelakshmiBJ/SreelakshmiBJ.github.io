@@ -46,7 +46,7 @@ li{
 }
 
 #container--main{
-    max-width: 700px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 1em;
 }
@@ -103,7 +103,7 @@ li{
 }
 
 #qualifications--list{
-    list-style: none;
+    list-style: square;
 }
 
 #wrapper--techstack__items{
@@ -177,4 +177,63 @@ li{
         border-left: none;
         padding-left: 0;
     }
+}
+
+#skills {
+    text-align: left;
+    padding: 0px;
+    /* background-color: mainBgColor; */
+}
+/*for skillset */
+.skills-container {
+    display: flex;
+    /* justify-content: center; */
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.skill-group h3 {
+    /* color: #333; */
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.skill-group p {
+    font-size: 16px;
+    /* color: #555; */
+    margin: 0;
+}
+
+.card--achievements{
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid var(--mainBorderColor);
+}
+
+.card--achievements a{
+    color: var(--mainTextColor);
+
+    transition: 0.3s;
+}
+
+.papertitle {
+    /* font-weight: bold; */
+    /* font-size: 18px; */
+    /* color: #0056b3; */
+    list-style-type: square;
+    margin-left: 0px;
+}
+
+
+/* ---- Author Name Styling ---- */
+.thisauthor {
+    font-style: italic;
+    text-decoration: underline;
+    /* color: #666; */
+}
+
+.tag {
+    text-decoration: none;
+    color: #00a2ff;
+    font-weight: bold;
 }
