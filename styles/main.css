@@ -67,7 +67,7 @@ li{
 }
 
 #user-name{
-    font-size: 48px;
+    font-size: 38px;
     line-height: 1em;
 }
 
@@ -89,7 +89,29 @@ li{
 }
 
 #AP-pic{
-    width: 450px;
+    width: 350px;
+    height: 200px;
+    /* object-fit: cover; */
+    border-radius: 0%;
+    border-width: 0.1cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    display:block
+}
+
+#expansionworkflow-pic{
+    width: 350px;
+    height: 200px;
+    /* object-fit: cover; */
+    border-radius: 0%;
+    border-width: 0.1cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    display:block
+}
+
+#characterization-pic{
+    width: 500px;
     height: 300px;
     /* object-fit: cover; */
     border-radius: 0%;
