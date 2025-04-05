@@ -131,6 +131,28 @@ li{
     margin: 0 auto;
     display:block
 }
+
+#shear-pic{
+    width: 500px;
+    height: 250px;
+    /* object-fit: cover; */
+    border-radius: 0%;
+    border-width: 0.1cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    display:block
+}
+
+#ibidi-pic{
+    width: 500px;
+    height: 320px;
+    /* object-fit: cover; */
+    border-radius: 0%;
+    border-width: 0.1cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    display:block
+}
 #email{
     color: var(--mainTextColor);
 }
