@@ -133,8 +133,8 @@ li{
 }
 
 #shear-pic{
-    width: 500px;
-    height: 250px;
+    width: 310px;
+    height: 150px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -144,8 +144,19 @@ li{
 }
 
 #ibidi-pic{
+    width: 350px;
+    height: 200px;
+    /* object-fit: cover; */
+    border-radius: 0%;
+    border-width: 0.1cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    display:block
+}
+
+#varicose-pic{
     width: 500px;
-    height: 320px;
+    height: 200px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
