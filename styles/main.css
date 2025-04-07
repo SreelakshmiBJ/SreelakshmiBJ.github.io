@@ -84,8 +84,10 @@ li{
     border-radius: 0%;
     border-width: 0.1cm;
     border: 1px solid black;
-    margin: 0 auto;
-    display:block
+    /* margin: 0 auto; */
+    /* display:inline-block; */
+    
+    
 }
 
 #AP-pic{
@@ -95,8 +97,9 @@ li{
     border-radius: 0%;
     border-width: 0.1cm;
     border: 1px solid black;
-    margin: 0 auto;
-    display:block
+    /* margin: 0 auto; */
+    /* display:inline-block; */
+    
 }
 
 #expansionworkflow-pic{
@@ -106,8 +109,8 @@ li{
     border-radius: 0%;
     border-width: 0.1cm;
     border: 1px solid black;
-    margin: 0 auto;
-    display:block
+    /* margin: 0 auto; */
+    /* display:block */
 }
 
 #characterization-pic{
@@ -117,8 +120,8 @@ li{
     border-radius: 0%;
     border-width: 0.1cm;
     border: 1px solid black;
-    margin: 0 auto;
-    display:block
+    /* margin: 0 auto; */
+    /* display:block */
 }
 
 #differentiationworkflow-pic{
@@ -139,8 +142,8 @@ li{
     border-radius: 0%;
     border-width: 0.1cm;
     border: 1px solid black;
-    margin: 0 auto;
-    display:block
+    /* margin: 0 auto; */
+    /* display:block */
 }
 
 #ibidi-pic{
@@ -150,8 +153,8 @@ li{
     border-radius: 0%;
     border-width: 0.1cm;
     border: 1px solid black;
-    margin: 0 auto;
-    display:block
+    /* margin: 0 auto; */
+    /* display:block */
 }
 
 #varicose-pic{
@@ -346,3 +349,10 @@ h3 {
     color: var(--mainLinkColor);
     font-size: 0.9em;
 }
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers the whole block */
+    gap: 10px;               /* Space between images */
+    flex-wrap: wrap;         /* Optional: stacks on smaller screens */
+    align-items: center;
+  }
