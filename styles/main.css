@@ -158,8 +158,18 @@ li{
 }
 
 #varicose-pic{
-    width: 350px;
-    height: 150px;
+    width: 600px;
+    height: 250px;
+    /* object-fit: cover; */
+    border-radius: 0%;
+    border-width: 0.1cm;
+    border: 1px solid black;
+    margin: 0 auto;
+    display:block
+}
+#AVM{
+    width: 850px;
+    height: 190px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
