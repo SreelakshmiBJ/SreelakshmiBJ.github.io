@@ -78,8 +78,8 @@ li{
     border-radius: 50%;
 }
 #generation-pic{
-    width: 350px;
-    height: 200px;
+    width: 550px;
+    height: 350px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -91,8 +91,8 @@ li{
 }
 
 #AP-pic{
-    width: 250px;
-    height: 130px;
+    width: 350px;
+    height: 200px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -103,8 +103,8 @@ li{
 }
 
 #expansionworkflow-pic{
-    width: 250px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -114,8 +114,8 @@ li{
 }
 
 #characterization-pic{
-    width: 420px;
-    height: 240px;
+    width: 550px;
+    height: 350px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -125,8 +125,8 @@ li{
 }
 
 #differentiationworkflow-pic{
-    width: 500px;
-    height: 250px;
+    width: 850px;
+    height: 350px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -136,8 +136,8 @@ li{
 }
 
 #shear-pic{
-    width: 310px;
-    height: 150px;
+    width: 400px;
+    height: 250px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -147,8 +147,8 @@ li{
 }
 
 #ibidi-pic{
-    width: 350px;
-    height: 200px;
+    width: 550px;
+    height: 300px;
     /* object-fit: cover; */
     border-radius: 0%;
     border-width: 0.1cm;
@@ -158,7 +158,7 @@ li{
 }
 
 #varicose-pic{
-    width: 600px;
+    width: 700px;
     height: 250px;
     /* object-fit: cover; */
     border-radius: 0%;
